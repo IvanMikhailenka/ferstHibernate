@@ -23,7 +23,7 @@ public class Orders {
     private List<Product> productsList = new ArrayList<Product>();
     public Orders() {
     }
-
+/**------------------------------------------------------------------------*/
     public int getId() {
         return id;
     }

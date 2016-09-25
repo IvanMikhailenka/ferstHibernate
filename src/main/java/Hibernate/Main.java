@@ -26,6 +26,9 @@ public class Main {
             //Criteria criteria = session.createCriteria(Product.class);
             //products = criteria.list();
             Object object = new Object();
+            Object object1 = new Object();
+            Object object2 = new Object();
+            Object object3 = new Object();
             session.getTransaction().commit();
         }
         finally {
